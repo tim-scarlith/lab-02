@@ -41,7 +41,7 @@ Por otra parte, solo hay un uso de aria-*, aria-label en el botón.
 
 1. Quitar bloqueo de indexación: elimina la directiva x-robots-tag: noindex de las cabeceras HTTP si quieres que tu sitio aparezca en Google.
 2. Agregar meta descripción: añade <meta name="description" content="Descripción breve y clara de la página (150-160 caracteres)">.
-3. Optimizar títulos y encabezados: cada página debe tener un <title> único y un <h1> representativo.
+3. Optimizar títulos y encabezados: cada página debe tener un  ```<title> ``` único y un ```<h1> ``` representativo.
 4. URLs amigables: usa rutas claras y cortas (/agenda, /expositores, etc.).
 
 ##### Accesibilidad 
