@@ -27,6 +27,7 @@ Página informativa sobre el evento **MTG Fest San José 2025**, un encuentro de
 ## Validación W3C
 Para la sección de la validación se utilizó la herramienta recomendada W3C como se puede ver en las siguientes imagenes.
 Dentro de las recomendaciones que plantea W3C se destacan que los elementos <img> de la página se organizan según el tipo de texto alternativo que poseen. Para las imágenes que cuentan con un texto alternativo (alt), es importante revisar que dicho texto tenga sentido y refleje correctamente el propósito de la imagen dentro del contexto de la página, evitando frases genéricas como “Imagen de …”. Por otro lado, las imágenes icónicas que solo repiten información ya presente en el texto o que son puramente decorativas deberían llevar un alt="" para que sean ignoradas por los lectores de pantalla.
+Por otra parte, solo hay un uso de aria-*, aria-label en el botón.
 ![PruebaW3X](./prueba.png)
 
 
