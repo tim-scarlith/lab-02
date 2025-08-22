@@ -51,7 +51,7 @@ Mantener un texto descriptivo en botones y enlaces: usa aria-label en botones de
 ## Accesibilidad aplicada
 #### Enlaces descriptivos
 Para los enleces descriptivos se utilizó en el siguiente bloque de codigo para que cada enlace indique claramente a qué sección llevará al usuario.
- 
+
 ```<li><a href="#agenda">Agenda</a></li>```
 ```<li><a href="#expositores">Expositores</a></li>```
 ```<li><a href="#registro">Registro</a></li>```
