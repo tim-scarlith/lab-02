@@ -1,0 +1,31 @@
+
+:root {
+  --c-primary: #1e1e1e;
+  --c-secondary: #f0f0f0;
+  --c-accent: #9d2235;
+  --c-text: #333;
+  --f-body: 'Arial', sans-serif;
+}
+
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: var(--f-body);
+  color: var(--c-text);
+  line-height: 1.6;
+  background-color: var(--c-secondary);
+}
+
+h1, h2, h3 {
+  color: var(--c-primary);
+  line-height: 1.2;
+}
+
+img[alt] { 
+  border: 2px solid var(--c-accent);
+}

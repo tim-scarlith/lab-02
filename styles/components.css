@@ -1,0 +1,80 @@
+
+.btn {
+  background-color: var(--c-accent);
+  color: var(--c-secondary);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn:hover { 
+  transform: translateY(-2px);
+}
+
+.btn:focus-visible { 
+  outline: 3px solid var(--c-accent);
+}
+
+.btn:active { 
+  transform: translateY(0);
+}
+
+.card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin-bottom: 2rem; 
+}
+
+.listado li:first-child { 
+  font-weight: bold;
+}
+
+.listado li:nth-child(2n) { 
+  background: #f0f0f0;
+}
+
+.card p { 
+  font-style: italic;
+}
+
+.overflow-text {
+  height: 100px;
+  overflow-y: scroll; 
+}
+
+.banner {
+  position: relative;
+  background-color: var(--c-accent);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.banner span {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #ff0000;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.tag {
+  background-color: var(--c-primary);
+  color: var(--c-secondary);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+
+main img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
