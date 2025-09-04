@@ -1,0 +1,52 @@
+
+main {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--c-primary);
+  color: var(--c-secondary);
+}
+
+header h1 {
+  color: var(--c-secondary);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  background-color: #f8f8f8;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  width: 100%;
+}
+
+header > nav { 
+  border-top: 1px solid #ddd;
+}
+
+nav a + a { 
+  margin-left: 1rem;
+}
+
+.cards-container {
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+
+h2 + .card { 
+  margin-top: 0;
+}

@@ -1,143 +1,152 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MTG Fest San José 2025</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MTG Fest San José 2025</title>
+  <link rel="stylesheet" href="./styles/base.css">
+  <link rel="stylesheet" href="./styles/layout.css">
+  <link rel="stylesheet" href="./styles/components.css">
+  <link rel="stylesheet" href="./styles/overrides.css">
 </head>
 <body>
-  <header>
-    <figure><img src="https://logos-world.net/wp-content/uploads/2023/05/Magic-The-Gathering-Logo.png" alt="Logo de Magic The Gathering" width="120"></figure>
-    <h1>MTG Fest San José 2025</h1>
-    <p>Encuentro de Magic: The Gathering con torneos y actividades.</p>
-  </header>
+  <header>
+    <figure><img src="https://logos-world.net/wp-content/uploads/2023/05/Magic-The-Gathering-Logo.png" alt="Logo de Magic The Gathering" width="120"></figure>
+    <h1>MTG Fest San José 2025</h1>
+    <p>Encuentro de Magic: The Gathering con torneos y actividades.</p>
+  </header>
 
-  <nav>
-    
-    <ul>
-      <li><a href="#agenda">Agenda</a></li>
-      <li><a href="#expositores">Expositores</a></li>
-      <li><a href="#registro">Registro</a></li>
-      <li><a href="#ubicacion">Ubicación</a></li>
-      <li><a href="#patrocinadores">Patrocinadores</a></li>
-    </ul>
-  </nav>
+  <nav>
+    
+    <ul>
+      <li><a href="#agenda">Agenda</a></li>
+      <li><a href="#expositores">Expositores</a></li>
+      <li><a href="#registro">Registro</a></li>
+      <li><a href="#ubicacion">Ubicación</a></li>
+      <li><a href="#patrocinadores">Patrocinadores</a></li>
+    </ul>
+  </nav>
 
-  <main>
-    <article id="agenda">
-      <h2>Agenda</h2>
-      <ol>
-        <li>Registro</li>
-        <li>Charla de bienvenida</li>
-        <li>Torneo</li>
-        <li>Premiación</li>
-      </ol>
+  <main>
+    <article id="agenda" class="card">
+      <h2>Agenda</h2>
+      <ol class="listado">
+        <li>Registro</li>
+        <li>Charla de bienvenida</li>
+        <li>Torneo</li>
+        <li>Premiación</li>
+      </ol>
 
-      <h3>Horario del evento</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Hora</th>
-            <th>Actividad</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>09:00</td>
-            <td>Acreditación</td>
-          </tr>
-          <tr>
-            <td>10:00</td>
-            <td>Charla de bienvenida</td>
-          </tr>
-          <tr>
-            <td>11:00</td>
-            <td>Ronda 1</td>
-          </tr>
-          <tr>
-            <td>15:00</td>
-            <td>Finales</td>
-          </tr>
-        </tbody>
-      </table>
+      <h3>Horario del evento</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Hora</th>
+            <th>Actividad</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>09:00</td>
+            <td>Acreditación</td>
+          </tr>
+          <tr>
+            <td>10:00</td>
+            <td>Charla de bienvenida</td>
+          </tr>
+          <tr>
+            <td>11:00</td>
+            <td>Ronda 1</td>
+          </tr>
+          <tr>
+            <td>15:00</td>
+            <td>Finales</td>
+          </tr>
+        </tbody>
+      </table>
 
-      <blockquote cite="https://www.youtube.com/watch?v=PMprg7x-mrc">
-        "The Origin Story of Magic's Greatest Player: Kai Budde, The German Juggernaut" — Hungry On Plane
-      </blockquote>
-    </article>
+      <blockquote cite="https://www.youtube.com/watch?v=PMprg7x-mrc">
+        "The Origin Story of Magic's Greatest Player: Kai Budde, The German Juggernaut" — Hungry On Plane
+      </blockquote>
+    </article>
 
-    <article id="expositores">
-      <h2>Expositores</h2>
-      <ul>
-        <li>Corey Baumeister</li>
-        <li>Cedric Phillips</li>
-        <li>Elisdh Lonie</li>
-        <li>Marsha Sutcliff</li>
-        <li>Paul Cheo</li>
-        <li>Maria bartholdi</li>
-      </ul>
+    <article id="expositores" class="card">
+      <h2 style="margin-bottom: 24px;">Expositores</h2>
+      <ul>
+        <li>Corey Baumeister</li>
+        <li>Cedric Phillips</li>
+        <li>Elisdh Lonie</li>
+        <li>Marsha Sutcliff</li>
+        <li>Paul Cheo</li>
+        <li>Maria bartholdi</li>
+      </ul>
 
-        <figure>
-        <img src="https://www.cmus.cz/obrazek/64049f2bf083c/magiccon-philadelphia---3.jpg" alt="Los expositores">
-        <figcaption>Centro de Convenciones donde se realizará el evento.</figcaption>
-      </figure>
-    </article>
-            <p>
-      Mira una de las charlas en el siguiente video: 
-      <a href="https://www.youtube.com/watch?v=PMprg7x-mrc&t=7s" target="_blank" rel="noopener noreferrer">
-        La historia del GOAT, Kai Budde
-      </a>.
-    </p>
+        <figure>
+        <img src="https://www.cmus.cz/obrazek/64049f2bf083c/magiccon-philadelphia---3.jpg" alt="Los expositores">
+        <figcaption>Centro de Convenciones donde se realizará el evento.</figcaption>
+      </figure>
+    </article>
+            <p>
+      Mira una de las charlas en el siguiente video: 
+      <a href="https://www.youtube.com/watch?v=PMprg7x-mrc&t=7s" target="_blank" rel="noopener noreferrer">
+        La historia del GOAT, Kai Budde
+      </a>.
+    </p>
 
-    <article id="registro">
-      <h2>Registro</h2>
-      <form>
-        <label for="nombre">Nombre:</label><br>
-        <input type="text" id="nombre" name="nombre" required><br>
+    <article id="registro" class="card">
+      <h2>Registro</h2>
+      <form>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
 
-        <label for="correo">Correo:</label><br>
-        <input type="email" id="correo" name="correo" required><br>
+        <label for="correo">Correo:</label><br>
+        <input type="email" id="correo" name="correo" required><br>
 
-        <label for="formato">Formato preferido:</label><br>
-        <select id="formato" name="formato">
-          <option value="modern">Modern</option>
-          <option value="commander">Commander</option>
-          <option value="pioneer">Pioneer</option>
-        </select><br>
+        <label for="formato">Formato preferido:</label><br>
+        <select id="formato" name="formato">
+          <option value="modern">Modern</option>
+          <option value="commander">Commander</option>
+          <option value="pioneer">Pioneer</option>
+        </select><br>
 
-        <button type="submit" aria-label="Enviar registro al evento MTG Fest">Enviar</button>
-      </form>
-    </article>
+        <button type="submit" aria-label="Enviar registro al evento MTG Fest" class="btn">Enviar</button>
+      </form>
+    </article>
 
-    <article id="ubicacion">
-      <h2>Ubicación</h2>
-      <p>Centro de Convenciones de San José.</p>
-        <figure>
-        <img src="https://alba-cr-repretel.cdn.mediatiquepress.com/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-05-at-9.44.14-AM-1024x768.jpeg" alt="Centro de convenciones">
-        <figcaption>Centro de Convenciones donde se realizará el evento.</figcaption>
-      </figure>
-    </article>
+    <article id="ubicacion" class="card">
+      <div class="banner">
+        <span>¡Evento destacado!</span>
+      </div>
+      <h2>Ubicación</h2>
+      <p class="overflow-text">
+        El Centro de Convenciones de San José es un lugar ideal para eventos de gran magnitud como el MTG Fest 2025. Su ubicación estratégica en el centro del país facilita el acceso para asistentes de todas las provincias, lo que asegura una alta participación. Además, sus amplias salas y espacios adaptables son perfectos para albergar torneos, áreas de juego libre, stands de patrocinadores y charlas de expositores de renombre internacional. Es un recinto moderno que cuenta con todas las comodidades y la tecnología necesaria para garantizar que todos los asistentes tengan una experiencia inolvidable. El ambiente es seguro y está rodeado de servicios de alimentación y transporte público.
+      </p>
+      <figure>
+        <img src="https://alba-cr-repretel.cdn.mediatiquepress.com/wp-content/uploads/2025/05/WhatsApp-Image-2025-05-05-at-9.44.14-AM-1024x768.jpeg" alt="Centro de convenciones">
+        <figcaption>Centro de Convenciones donde se realizará el evento.</figcaption>
+      </figure>
+    </article>
 
-    <article id="patrocinadores">
-      <h2>Patrocinadores</h2>
-      <ul>
-        <li>Maná Store</li>
-        <li>Planeswalkers CR</li>
-        <li>WPN Local</li>
-      </ul>
-    </article>
+    <article id="patrocinadores" class="card">
+      <h2>Patrocinadores</h2>
+      <ul>
+        <li class="tag">Maná Store</li>
+        <li class="tag">Planeswalkers CR</li>
+        <li class="tag">WPN Local</li>
+      </ul>
+    </article>
 
-    <figure>
-      <img src="https://niveloculto.com/wp-content/uploads/2021/01/magi.jpg" alt="Jugadores de MTG en un torneo">
-      <figcaption>Jugadores disfrutando de un torneo de MTG.</figcaption>
-    </figure>
-  </main>
+    <figure>
+      <img src="https://niveloculto.com/wp-content/uploads/2021/01/magi.jpg" alt="Jugadores de MTG en un torneo">
+      <figcaption>Jugadores disfrutando de un torneo de MTG.</figcaption>
+    </figure>
+  </main>
 
-  <aside>
-    <section>
-      <h2>Consejos</h2>
-      <p>Lleva tu mazo y accesorios básicos. Mantente hidratado.</p>
-    </section>
-  </aside>
+  <aside>
+    <section>
+      <h2>Consejos</h2>
+      <p>Lleva tu mazo y accesorios básicos. Mantente hidratado.</p>
+    </section>
+  </aside>
 </body>
 </html>
