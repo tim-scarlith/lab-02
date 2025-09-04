@@ -11,23 +11,36 @@
 </head>
 <body>
   <header>
-    <figure><img src="https://logos-world.net/wp-content/uploads/2023/05/Magic-The-Gathering-Logo.png" alt="Logo de Magic The Gathering" width="120"></figure>
     <h1>MTG Fest San José 2025</h1>
     <p>Encuentro de Magic: The Gathering con torneos y actividades.</p>
+
+    <button class="hamburger-btn" aria-controls="main-nav" aria-expanded="false">
+      <span class="sr-only">Menú</span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+    <nav id="main-nav">
+      <ul id="menu-list">
+        <li><a href="#agenda">Agenda</a></li>
+        <li><a href="#expositores">Expositores</a></li>
+        <li><a href="#registro">Registro</a></li>
+        <li><a href="#ubicacion">Ubicación</a></li>
+        <li><a href="#patrocinadores">Patrocinadores</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <nav>
-    
-    <ul>
-      <li><a href="#agenda">Agenda</a></li>
-      <li><a href="#expositores">Expositores</a></li>
-      <li><a href="#registro">Registro</a></li>
-      <li><a href="#ubicacion">Ubicación</a></li>
-      <li><a href="#patrocinadores">Patrocinadores</a></li>
-    </ul>
-  </nav>
-
   <main>
+    <div class="hero-image">
+      <picture>
+        <source media="(min-width: 1024px)" srcset="U.jpg">
+        <source media="(min-width: 768px)" srcset="p.jpg">
+        <img src="mjpg.jpeg" alt="Cosmic Spider-Man y Ultimate Green Goblin">
+      </picture>
+    </div>
+
     <article id="agenda" class="card">
       <h2>Agenda</h2>
       <ol class="listado">
@@ -71,7 +84,7 @@
     </article>
 
     <article id="expositores" class="card">
-      <h2 style="margin-bottom: 24px;">Expositores</h2>
+      <h2>Expositores</h2>
       <ul>
         <li>Corey Baumeister</li>
         <li>Cedric Phillips</li>
@@ -148,5 +161,15 @@
       <p>Lleva tu mazo y accesorios básicos. Mantente hidratado.</p>
     </section>
   </aside>
+  <script>
+    const hamburgerBtn = document.querySelector('.hamburger-btn');
+    const mainNav = document.getElementById('main-nav');
+    
+    hamburgerBtn.addEventListener('click', () => {
+      const isExpanded = hamburgerBtn.getAttribute('aria-expanded') === 'true' || false;
+      hamburgerBtn.setAttribute('aria-expanded', !isExpanded);
+      mainNav.classList.toggle('is-open');
+    });
+  </script>
 </body>
 </html>
